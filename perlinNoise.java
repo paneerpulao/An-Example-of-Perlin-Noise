@@ -27,10 +27,10 @@ public class perlinNoise {
                 // System.out.println(a + " " + b +" ");
                 interpolate(a, b, u, u + l, ans);
             }
-            for(int i = 0; i < len; i++){
-                System.out.println(ans[i]);
-            }
-            System.out.println();
+            // for(int i = 0; i < len; i++){
+            //     System.out.println(ans[i]);
+            // }
+            // System.out.println();
             l*=2;
         }
         // for(int i = 1; i < len; i++){
